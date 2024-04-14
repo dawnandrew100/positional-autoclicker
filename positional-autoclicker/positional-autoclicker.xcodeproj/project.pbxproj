@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F08672B72BCC8EC000FC7297 /* positional_autoclickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08672B62BCC8EC000FC7297 /* positional_autoclickerApp.swift */; };
+		F08672B92BCC8EC000FC7297 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08672B82BCC8EC000FC7297 /* ContentView.swift */; };
+		F08672BB2BCC8EC100FC7297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F08672BA2BCC8EC100FC7297 /* Assets.xcassets */; };
+		F08672BF2BCC8EC100FC7297 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F08672BE2BCC8EC100FC7297 /* Preview Assets.xcassets */; };
+		F08672C92BCC8EC100FC7297 /* positional_autoclickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08672C82BCC8EC100FC7297 /* positional_autoclickerTests.swift */; };
+		F08672D32BCC8EC100FC7297 /* positional_autoclickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08672D22BCC8EC100FC7297 /* positional_autoclickerUITests.swift */; };
+		F08672D52BCC8EC100FC7297 /* positional_autoclickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08672D42BCC8EC100FC7297 /* positional_autoclickerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F08672C52BCC8EC100FC7297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F08672AB2BCC8EC000FC7297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F08672B22BCC8EC000FC7297;
+			remoteInfo = "positional-autoclicker";
+		};
+		F08672CF2BCC8EC100FC7297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F08672AB2BCC8EC000FC7297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F08672B22BCC8EC000FC7297;
+			remoteInfo = "positional-autoclicker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F08672B32BCC8EC000FC7297 /* positional-autoclicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "positional-autoclicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08672B62BCC8EC000FC7297 /* positional_autoclickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = positional_autoclickerApp.swift; sourceTree = "<group>"; };
+		F08672B82BCC8EC000FC7297 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F08672BA2BCC8EC100FC7297 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F08672BC2BCC8EC100FC7297 /* positional_autoclicker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = positional_autoclicker.entitlements; sourceTree = "<group>"; };
+		F08672BE2BCC8EC100FC7297 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F08672C42BCC8EC100FC7297 /* positional-autoclickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "positional-autoclickerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08672C82BCC8EC100FC7297 /* positional_autoclickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = positional_autoclickerTests.swift; sourceTree = "<group>"; };
+		F08672CE2BCC8EC100FC7297 /* positional-autoclickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "positional-autoclickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08672D22BCC8EC100FC7297 /* positional_autoclickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = positional_autoclickerUITests.swift; sourceTree = "<group>"; };
+		F08672D42BCC8EC100FC7297 /* positional_autoclickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = positional_autoclickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F08672B02BCC8EC000FC7297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08672C12BCC8EC100FC7297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08672CB2BCC8EC100FC7297 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F08672AA2BCC8EC000FC7297 = {
+			isa = PBXGroup;
+			children = (
+				F08672B52BCC8EC000FC7297 /* positional-autoclicker */,
+				F08672C72BCC8EC100FC7297 /* positional-autoclickerTests */,
+				F08672D12BCC8EC100FC7297 /* positional-autoclickerUITests */,
+				F08672B42BCC8EC000FC7297 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F08672B42BCC8EC000FC7297 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F08672B32BCC8EC000FC7297 /* positional-autoclicker.app */,
+				F08672C42BCC8EC100FC7297 /* positional-autoclickerTests.xctest */,
+				F08672CE2BCC8EC100FC7297 /* positional-autoclickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F08672B52BCC8EC000FC7297 /* positional-autoclicker */ = {
+			isa = PBXGroup;
+			children = (
+				F08672B62BCC8EC000FC7297 /* positional_autoclickerApp.swift */,
+				F08672B82BCC8EC000FC7297 /* ContentView.swift */,
+				F08672BA2BCC8EC100FC7297 /* Assets.xcassets */,
+				F08672BC2BCC8EC100FC7297 /* positional_autoclicker.entitlements */,
+				F08672BD2BCC8EC100FC7297 /* Preview Content */,
+			);
+			path = "positional-autoclicker";
+			sourceTree = "<group>";
+		};
+		F08672BD2BCC8EC100FC7297 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F08672BE2BCC8EC100FC7297 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F08672C72BCC8EC100FC7297 /* positional-autoclickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F08672C82BCC8EC100FC7297 /* positional_autoclickerTests.swift */,
+			);
+			path = "positional-autoclickerTests";
+			sourceTree = "<group>";
+		};
+		F08672D12BCC8EC100FC7297 /* positional-autoclickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F08672D22BCC8EC100FC7297 /* positional_autoclickerUITests.swift */,
+				F08672D42BCC8EC100FC7297 /* positional_autoclickerUITestsLaunchTests.swift */,
+			);
+			path = "positional-autoclickerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F08672B22BCC8EC000FC7297 /* positional-autoclicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F08672D82BCC8EC100FC7297 /* Build configuration list for PBXNativeTarget "positional-autoclicker" */;
+			buildPhases = (
+				F08672AF2BCC8EC000FC7297 /* Sources */,
+				F08672B02BCC8EC000FC7297 /* Frameworks */,
+				F08672B12BCC8EC000FC7297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "positional-autoclicker";
+			productName = "positional-autoclicker";
+			productReference = F08672B32BCC8EC000FC7297 /* positional-autoclicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F08672C32BCC8EC100FC7297 /* positional-autoclickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F08672DB2BCC8EC100FC7297 /* Build configuration list for PBXNativeTarget "positional-autoclickerTests" */;
+			buildPhases = (
+				F08672C02BCC8EC100FC7297 /* Sources */,
+				F08672C12BCC8EC100FC7297 /* Frameworks */,
+				F08672C22BCC8EC100FC7297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F08672C62BCC8EC100FC7297 /* PBXTargetDependency */,
+			);
+			name = "positional-autoclickerTests";
+			productName = "positional-autoclickerTests";
+			productReference = F08672C42BCC8EC100FC7297 /* positional-autoclickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F08672CD2BCC8EC100FC7297 /* positional-autoclickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F08672DE2BCC8EC100FC7297 /* Build configuration list for PBXNativeTarget "positional-autoclickerUITests" */;
+			buildPhases = (
+				F08672CA2BCC8EC100FC7297 /* Sources */,
+				F08672CB2BCC8EC100FC7297 /* Frameworks */,
+				F08672CC2BCC8EC100FC7297 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F08672D02BCC8EC100FC7297 /* PBXTargetDependency */,
+			);
+			name = "positional-autoclickerUITests";
+			productName = "positional-autoclickerUITests";
+			productReference = F08672CE2BCC8EC100FC7297 /* positional-autoclickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F08672AB2BCC8EC000FC7297 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F08672B22BCC8EC000FC7297 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F08672C32BCC8EC100FC7297 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F08672B22BCC8EC000FC7297;
+					};
+					F08672CD2BCC8EC100FC7297 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F08672B22BCC8EC000FC7297;
+					};
+				};
+			};
+			buildConfigurationList = F08672AE2BCC8EC000FC7297 /* Build configuration list for PBXProject "positional-autoclicker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F08672AA2BCC8EC000FC7297;
+			productRefGroup = F08672B42BCC8EC000FC7297 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F08672B22BCC8EC000FC7297 /* positional-autoclicker */,
+				F08672C32BCC8EC100FC7297 /* positional-autoclickerTests */,
+				F08672CD2BCC8EC100FC7297 /* positional-autoclickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F08672B12BCC8EC000FC7297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08672BF2BCC8EC100FC7297 /* Preview Assets.xcassets in Resources */,
+				F08672BB2BCC8EC100FC7297 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08672C22BCC8EC100FC7297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08672CC2BCC8EC100FC7297 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F08672AF2BCC8EC000FC7297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08672B92BCC8EC000FC7297 /* ContentView.swift in Sources */,
+				F08672B72BCC8EC000FC7297 /* positional_autoclickerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08672C02BCC8EC100FC7297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08672C92BCC8EC100FC7297 /* positional_autoclickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08672CA2BCC8EC100FC7297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08672D32BCC8EC100FC7297 /* positional_autoclickerUITests.swift in Sources */,
+				F08672D52BCC8EC100FC7297 /* positional_autoclickerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F08672C62BCC8EC100FC7297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F08672B22BCC8EC000FC7297 /* positional-autoclicker */;
+			targetProxy = F08672C52BCC8EC100FC7297 /* PBXContainerItemProxy */;
+		};
+		F08672D02BCC8EC100FC7297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F08672B22BCC8EC000FC7297 /* positional-autoclicker */;
+			targetProxy = F08672CF2BCC8EC100FC7297 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F08672D62BCC8EC100FC7297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F08672D72BCC8EC100FC7297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F08672D92BCC8EC100FC7297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "positional-autoclicker/positional_autoclicker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"positional-autoclicker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dawnandrew100.positional-autoclicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F08672DA2BCC8EC100FC7297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "positional-autoclicker/positional_autoclicker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"positional-autoclicker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dawnandrew100.positional-autoclicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F08672DC2BCC8EC100FC7297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dawnandrew100.positional-autoclickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/positional-autoclicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/positional-autoclicker";
+			};
+			name = Debug;
+		};
+		F08672DD2BCC8EC100FC7297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dawnandrew100.positional-autoclickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/positional-autoclicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/positional-autoclicker";
+			};
+			name = Release;
+		};
+		F08672DF2BCC8EC100FC7297 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dawnandrew100.positional-autoclickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "positional-autoclicker";
+			};
+			name = Debug;
+		};
+		F08672E02BCC8EC100FC7297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dawnandrew100.positional-autoclickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "positional-autoclicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F08672AE2BCC8EC000FC7297 /* Build configuration list for PBXProject "positional-autoclicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08672D62BCC8EC100FC7297 /* Debug */,
+				F08672D72BCC8EC100FC7297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F08672D82BCC8EC100FC7297 /* Build configuration list for PBXNativeTarget "positional-autoclicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08672D92BCC8EC100FC7297 /* Debug */,
+				F08672DA2BCC8EC100FC7297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F08672DB2BCC8EC100FC7297 /* Build configuration list for PBXNativeTarget "positional-autoclickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08672DC2BCC8EC100FC7297 /* Debug */,
+				F08672DD2BCC8EC100FC7297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F08672DE2BCC8EC100FC7297 /* Build configuration list for PBXNativeTarget "positional-autoclickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08672DF2BCC8EC100FC7297 /* Debug */,
+				F08672E02BCC8EC100FC7297 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F08672AB2BCC8EC000FC7297 /* Project object */;
+}
